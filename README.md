@@ -1,4 +1,4 @@
-
+# GiftLedger — Guest Gift & Money Collection Monitoring System
 
 GiftLedger is a production-grade, full-stack financial monitoring and guest ledger application designed for weddings, receptions, ceremonies, family functions, and community events. It provides tamper-evident financial accounting, physical gift cataloging, cash drawer reconciliation, collector shift tracking, and executive analytics with role-based access control (RBAC).
 
