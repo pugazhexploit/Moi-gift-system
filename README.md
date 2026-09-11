@@ -84,6 +84,12 @@ To launch the full stack (MongoDB, FastAPI Backend, and Next.js Frontend):
 docker-compose up --build
 ```
 
+- **Frontend Application**: [http://localhost:3000](http://localhost:3000)
+- **FastAPI Backend API**: [http://localhost:8000](http://localhost:8000)
+- **API Documentation**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **MongoDB**: `localhost:27017`
+
+---
 
 ## Local Development Setup
 
