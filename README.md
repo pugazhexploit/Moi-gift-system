@@ -4,15 +4,6 @@ GiftLedger is a production-grade, full-stack financial monitoring and guest ledg
 
 ---
 
-## Architecture & Technology Stack
-
-### Backend
-- **Framework**: Python 3.12+ / FastAPI
-- **Database**: MongoDB 7.0+ (PyMongo Async engine)
-- **Monetary Safety**: Authoritative money stored strictly as `bson.Decimal128` and manipulated via Python `decimal.Decimal` (zero floating-point precision hazards)
-- **Security & Cryptography**: Argon2id password hashing, HTTP-only SameSite cookies, CSRF tokens, cryptographic QR verification tokens, request-id tracing, and memory-safe rate limiting
-- **Auditability**: Append-only audit trail logging every administrative and financial state transition
-
 ### Frontend
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript (strict type-checking)
